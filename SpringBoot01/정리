@@ -1,0 +1,26 @@
+이클립스 기반으로 스프링 개발자용으로 만들어진 것(전자정부프레임워크랑 비슷한 느낌)
+Spring -> Spring Tools 4 -> 윈도우 설치
+cmd창에 -> cd Downloads -> java -jar lombok.jar -> 자동 지정된 exe설치
+-> 파일 바탕화면에 만들어서 spring boot과 파일 연결하기
+
+
+
+처음 만들 때 spring starter project로 만듦
+name, type:maven project, group, package명 바꿔주기
+
+application.porperties에서
+# 포트번호 지정
+server.port=8089
+
+
+jsp 파일 만들고 싶은데 없다!
+help -> eclipse marketplace -> 'jsp'검색 -> 'eclipse enterprise java and web developer tools' install
+
+
+application.porperties에서
+# JSP 경로 지정
+# ViewResolver설정
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
+
+전자정부 프레임 워크의 root-context에서 했던 일들을 이 파일에서 한다

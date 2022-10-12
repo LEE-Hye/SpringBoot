@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "srping.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'srping.datasource.url'"
+  },
+  {
+    "name": "srping.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'srping.datasource.username'"
+  },
+  {
+    "name": "srping.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'srping.datasource.password'"
+  }
+]}

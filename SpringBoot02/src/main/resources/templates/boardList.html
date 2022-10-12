@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>boardList</title>
+</head>
+<body>
+   <h1>boardlist.html</h1>
+   
+   <!-- 
+      jsp에서 
+      \${str} : 어떤 Scope에 있던지 출력가능
+      
+      thymeleaf 
+      \${str} : request만 찾아봄
+      
+      session에 있는걸 어떻게 가져올까?
+      \${sessionScope.str} : request영역이 아닌경우라면, 
+      						어떤 scope에서 가져와야하는지를 명시
+      
+      
+    -->
+   <h1 th:text="${str}">여기엔 제목 들어갈거에요.</h1>
+</body>
+</html>
